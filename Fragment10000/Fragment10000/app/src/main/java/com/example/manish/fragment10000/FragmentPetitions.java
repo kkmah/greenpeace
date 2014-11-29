@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 /**
  * Created by Vivz on 10/25/13.
  */
-public class FragmentA extends Fragment {
+public class FragmentPetitions extends Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
@@ -40,7 +40,7 @@ public class FragmentA extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater,container,savedInstanceState);
         Log.d("VIVZ","onCreateView");
-        return inflater.inflate(R.layout.fragment_a, container, false);
+        return inflater.inflate(R.layout.petitions, container, false);
     }
 
     @Override

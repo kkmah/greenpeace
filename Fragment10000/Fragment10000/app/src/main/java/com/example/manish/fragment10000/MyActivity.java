@@ -1,13 +1,13 @@
 package com.example.manish.fragment10000;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
+import android.view.View;
 
 public class MyActivity extends FragmentActivity {
 
@@ -15,10 +15,14 @@ public class MyActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.main);
         viewPager= (ViewPager) findViewById(R.id.pager);
         FragmentManager fragmentManager=getSupportFragmentManager();
         viewPager.setAdapter(new MyAdapter(fragmentManager));
+    }
+    public void submit(View view) {
+        Intent intent = new Intent(this, PetitionConfrimActivity.class);
+        startActivity(intent);
     }
 
 }
@@ -36,15 +40,15 @@ class MyAdapter extends FragmentStatePagerAdapter
 //        Log.d("VIVZ", "get Item is called "+i);
         if(i==0)
         {
-            fragment=new FragmentA();
+            fragment=new FragmentPetitions();
         }
         if(i==1)
         {
-            fragment=new FragmentB();
+            fragment=new FragmentStream();
         }
         if(i==2)
         {
-            fragment=new FragmentC();
+            fragment=new FragmentFeed();
         }
         return fragment;
     }
