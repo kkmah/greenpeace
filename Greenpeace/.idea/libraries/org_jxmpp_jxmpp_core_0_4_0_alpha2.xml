@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.jxmpp:jxmpp-core:0.4.0-alpha2" type="repository">
+    <properties maven-id="org.jxmpp:jxmpp-core:0.4.0-alpha2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jxmpp/jxmpp-core/0.4.0-alpha2/jxmpp-core-0.4.0-alpha2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jxmpp/jxmpp-util-cache/0.4.0-alpha2/jxmpp-util-cache-0.4.0-alpha2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
