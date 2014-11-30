@@ -1,7 +1,5 @@
 package com.example.Greenpeace;
 
-import java.util.*;
-
 /**
  * Created by farelia on 11/13/2014.
  */

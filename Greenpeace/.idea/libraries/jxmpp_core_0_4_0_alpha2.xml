@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="jxmpp-core-0.4.0-alpha2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/smack/jxmpp-core-0.4.0-alpha2.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-android-4.1.0-alpha6-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-android-extensions-4.1.0-alpha6-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-core-4.1.0-alpha6-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-extensions-4.1.0-alpha6-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-resolver-minidns-4.1.0-alpha6-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-sasl-provided-4.1.0-alpha6-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/smack/smack-tcp-4.1.0-alpha6-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
